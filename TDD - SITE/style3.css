@@ -60,7 +60,7 @@ h4 {
 }
 
 #list li {
-    list-style: none;
+    list-style-type: '\2714\00A0\00A0';
     
 }
 
