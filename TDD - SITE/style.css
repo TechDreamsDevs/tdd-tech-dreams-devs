@@ -153,6 +153,7 @@ footer > p > a {
     color: var(--cor4);
     text-decoration: none;
     padding: 10px;
+    font-weight: bold;
 }
 
 footer > p > a:hover {    
