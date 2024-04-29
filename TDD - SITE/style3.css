@@ -134,16 +134,19 @@ p {
 .menu-h {
     text-align: center;
     list-style: none;
+    
 }
 
 
 #menu-h {
     text-align: center;
     list-style: none;
+    
 }
 
 
 #menu-h li {
+    
     text-decoration: none;
 }
 
