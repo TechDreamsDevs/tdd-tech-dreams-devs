@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-color: #03323A;
+    color: white;
+    text-align: center;    
+}
+h3 {
+    color: white;
+}
+#menu-h {
+    list-style: none;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
