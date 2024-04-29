@@ -71,6 +71,7 @@ article.serviços h1 {
     font-size: 2em;
     text-align: center;
     padding-top: 30px;
+    color: var(--cor0);
 }
 
 article.serviços p {
@@ -80,6 +81,7 @@ article.serviços p {
     text-align: center;
     font-size: 20px;
     padding-bottom: 50px;
+    color: var(--cor0);
     
 }
 
@@ -102,7 +104,8 @@ article.serviços p {
 .contato a {
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: var(--cor1);
+    font-weight: bold;
     
     
     
