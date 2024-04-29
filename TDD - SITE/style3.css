@@ -29,6 +29,8 @@ body {
 }
 
 #cabeçalho {
+    margin: 5px;
+    padding: 10px;
     background-color: #03323A;
     color: white;
     border-radius: 20px;
