@@ -60,6 +60,20 @@ h3 {
     font-size: 3em;
 }
 
+#titulo3 {
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    color: var(--cor0);
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
 h4 {
     display: inline-block;
     text-align: center;
@@ -73,20 +87,39 @@ h4 {
     margin-bottom: 20px;
 }
 
-#list {
+.conteudo {
+    text-align: center;
+    
+}
+
+.conteudo > #conteudo-quem-somos {
+    display: inline-block;
     list-style: none;
-    text-align: center; 
+    text-align: center;
     font-weight: bolder;
-    padding: 10px;
+    max-width: 600px;
+    
+}
+
+
+#list {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-weight: bolder;
+    max-width: 600px;
+    
+    
+
 }
 
 #list li {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
-    text-align: justify, center;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+
 
     
 }
@@ -97,6 +130,22 @@ p {
     font-weight: bold;
     padding: 10px;
     
+    
+}
+
+a {
+    color: var(--cor1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--cor1);
 }
 
 #contato {
@@ -161,7 +210,7 @@ footer {
 
 footer > a {
     display: inline-block;
-    color: var(--cor0);
+    color: var(--cor1);
     text-decoration: none;
     padding: 10px;
     
