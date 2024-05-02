@@ -85,38 +85,35 @@ article.serviços p {
     
 }
 
-.contato {    
+.contato {
     display: inline-block;
-    border: 2px solid #063A40;
-    border-radius: 20px;    
-    padding: 10px;
+    border: 2px solid var(--cor0);
+    border-radius: 20px;
     padding-bottom: 15px;
-    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.288);   
+    padding: 10px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.288);    
 
 }
 
 .contato:hover {
-    display: inline-block;
     background-color: var(--cor0);
     transition-duration: .5s;
 }
 
 .contato a {
-    display: inline-block;
+    text-align: center;
+    padding: 10px;
     text-decoration: none;
     color: var(--cor1);
     font-weight: bold;
-    
-    
-    
 }
 
 .contato a:hover {
-    color: var(--cor5);
+    color: var(--cor5);    
+    padding: 10px;
 }
 
 article.produto {
-    
     padding: 50px;    
     margin: auto;
     font-size: 17px;
