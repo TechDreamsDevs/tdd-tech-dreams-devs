@@ -127,17 +127,6 @@ article.produto ul li {
     text-align: center;
 }
 
-article.formulario {
-    background-color: var(--cor4);
-    position: absolute;
-}
-
-article.formulario > #formulario1 {
-    display: inline-block;
-    position: relative;
-    margin: auto;
-}
-
 footer {
     text-align: center;
     padding: 10px;
