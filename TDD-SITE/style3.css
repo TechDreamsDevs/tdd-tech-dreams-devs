@@ -97,7 +97,7 @@ h4 {
     list-style: none;
     text-align: center;
     font-weight: bolder;
-    max-width: 600px;
+    max-width: 375px;
     
 }
 
@@ -107,7 +107,7 @@ h4 {
     list-style: none;
     text-align: center;
     font-weight: bolder;
-    max-width: 600px;
+    max-width: 375px;
     
     
 
@@ -187,7 +187,7 @@ a:active {
 
 #contato {
     font-weight: bolder;
-    background-image: linear-gradient(to right, #96D2D9, #E3FCFF, #BFBA9F);
+    background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
     color: var(--cor0);
     padding: 50px;
     background-attachment: fixed;
