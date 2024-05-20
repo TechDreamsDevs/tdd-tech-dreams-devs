@@ -23,21 +23,37 @@ body {
     
 }
 
+.logo {
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer {
+    display: block;
+    color: var(--cor4);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#burguer:hover {
+    color: var(--cor1);
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+#burguer:active {
+    color: var(--cor4);
+}
+
 nav {    
-    background-color: #063a407a;   
+    display: none;
     text-align: center;
     padding-bottom: 10px;    
     font-size: 2em;
     
     
 }
-
-nav > .logo {
-    padding-top: 20px;       
-    
-}
-
-
 
 nav > a {
     display: inline-block;
