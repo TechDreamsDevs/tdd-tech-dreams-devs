@@ -15,3 +15,11 @@ function clickMenu() {
         itens.style.display ='block'
     }
 }
+
+function clickEcommerce() {
+    if (iecom.style.display =='block') {
+        iecom.style.display = 'none'
+    } else {
+        iecom.style.display = 'block'
+    }
+}
