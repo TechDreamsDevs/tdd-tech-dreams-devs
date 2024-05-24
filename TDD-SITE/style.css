@@ -130,19 +130,25 @@ article.serviços p {
 }
 
 article.produto {
+
     padding: 50px;    
     margin: auto;
     font-size: 1.1em;
     font-weight: bold;
+    background-image: url(imagens/robo-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+    
     
 }
 
 article.produto ul li {
-    padding: 5px;
     list-style: none;
     line-height: 2em;
     text-align: center;
-    color: white;
+    color: var(--cor0);
     display: block;
     width: 200px;
     margin: auto;
@@ -155,7 +161,7 @@ article.produto ul li:hover {
     color: var(--cor5);
     background-color: var(--cor0);
     transition-duration: .5s;
-    border: 2px solid var(--cor0)
+    display: block;
 }
 
 #iecom {
