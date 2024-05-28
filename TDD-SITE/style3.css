@@ -19,10 +19,9 @@
 
 }
 
-
 body {
     background-color: white;
-    color: #03323A;
+    color: var(--cor0);
     font-weight: bolder;
     font-size: 1em;
         
@@ -31,7 +30,7 @@ body {
 #cabeçalho {
     margin: 5px;
     padding: 10px;
-    background-color: #03323A;
+    background-color: var(--cor0);
     color: white;
     border-radius: 20px;
     text-align: center;
@@ -91,7 +90,6 @@ h4 {
     margin: auto;
     list-style: none;
     text-align: center;
-    
 }
 
 .conteudo > ul {
