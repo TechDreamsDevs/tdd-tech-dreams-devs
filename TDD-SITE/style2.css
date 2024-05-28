@@ -23,7 +23,6 @@
 
 body {
     background-color: white;
-    color: var(--cor0); /* Retirar do body e colocar no conteudo */
 }
 
 .cabeçalho {
@@ -46,7 +45,7 @@ body {
     max-width: 300px;
 }
 
-.conteudo > #list > h4 {
+.conteudo > ul > h4 {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -55,6 +54,20 @@ body {
     color: var(--cor0);
     font-weight: bolder;
     font-size: 2em;
+}
+
+.list {
+    text-align: center;
+}
+
+.list > li {
+    padding: 10px;
+    color: var(--cor0);
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    font-family: var(--font1);
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 /*.conteudo > #conteudo-quem-somos {
@@ -66,18 +79,12 @@ body {
     
 } */
 
-#chamada {
-    font-weight: bolder;
-    background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
-    color: var(--cor0);
-    padding: 50px;
-    background-attachment: fixed;
-    margin: auto;    
-    text-align: center;
-    font-size: 2em;
+.chamada {
     margin-top: 10px;
-    
-
+    padding: 50px;
+    background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
+    color: var(--cor0);           
+    font-size: 18px;
 }
 
 #contato p {
@@ -96,29 +103,6 @@ body {
 
 #contato p a:active {
     color: var(--cor0);
-}
-
-
-#list {
-    display: inline-block;
-    list-style: none;
-    text-align: center;
-    font-weight: bolder;
-    max-width: 375px;
-    
-    
-
-}
-
-#list li {
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-
-
-    
 }
 
 p {
