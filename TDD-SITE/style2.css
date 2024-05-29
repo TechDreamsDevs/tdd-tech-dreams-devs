@@ -23,6 +23,7 @@
 
 body {
     background-color: white;
+    color: var(--cor0); /* Retirar do body e colocar no conteudo */
 }
 
 .cabeçalho {
@@ -46,11 +47,15 @@ body {
     text-align: center;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 .conteudo > ul > h4 {
 =======
 .conteudo > h3 {
 >>>>>>> Stashed changes
+=======
+.conteudo > #list > h4 {
+>>>>>>> parent of 03df7b3 (Atualização 1.0)
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -61,6 +66,7 @@ body {
     font-size: 2em;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 .conteudo > .list > h4 {
@@ -89,6 +95,8 @@ body {
     font-size: 18px;
 }
 
+=======
+>>>>>>> parent of 03df7b3 (Atualização 1.0)
 /*.conteudo > #conteudo-quem-somos {
     display: inline-block;
     list-style: none;
@@ -98,6 +106,7 @@ body {
     
 } */
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 .chamada {
 =======
@@ -135,9 +144,20 @@ body {
 >>>>>>> Stashed changes
     margin-top: 10px;
     padding: 50px;
+=======
+#chamada {
+    font-weight: bolder;
+>>>>>>> parent of 03df7b3 (Atualização 1.0)
     background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
-    color: var(--cor0);           
-    font-size: 18px;
+    color: var(--cor0);
+    padding: 50px;
+    background-attachment: fixed;
+    margin: auto;    
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    
+
 }
 
 #contato p {
@@ -158,12 +178,38 @@ body {
     color: var(--cor0);
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 
 
 
 >>>>>>> Stashed changes
+=======
+
+#list {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-weight: bolder;
+    max-width: 375px;
+    
+    
+
+}
+
+#list li {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+    
+}
+
+>>>>>>> parent of 03df7b3 (Atualização 1.0)
 p {
     text-align: center;
     font-size: 1em;
