@@ -10,5 +10,10 @@
         display: block;
     }
 
+    #chamada {
+        background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
+        background-attachment: fixed;
+    }
+
     
 }
