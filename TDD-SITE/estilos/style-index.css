@@ -9,6 +9,10 @@
     --cor3: #96D2D9;
     --cor4: #E3FCFF;
     --cor5: #BFBA9F;
+
+    /* Fontes */
+    --font0: 'Montserrat';
+    --font1: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -17,10 +21,7 @@
 }
 
 body {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to bottom, #063A40, #37B2BF);
-    background-attachment: fixed;    
-    
+    background-color: var(--cor0)
 }
 
 .logo {
@@ -47,13 +48,12 @@ body {
     color: var(--cor4);
 }
 
-nav {    
+nav {
     display: none;
-    text-align: center;
     padding-bottom: 10px;    
-    font-size: 2em;
-    
-    
+    text-align: center;
+    font-family: var(--font0);      
+    font-size: 2em;  
 }
 
 nav > a {
@@ -62,8 +62,7 @@ nav > a {
     padding: 10px;
     color: var(--cor4);    
     font-weight: bold;
-    padding-bottom: 10px;   
-    
+    padding-bottom: 10px;    
 }
 
 nav > a:hover {
@@ -75,21 +74,22 @@ nav > a:active {
     color: var(--cor4);
 }
 
-article.serviços {
+.serviços {
     padding: 10px;
-    background-image: linear-gradient(to right, #96D2D9, #E3FCFF, #BFBA9F);
+    background-color: var(--cor5);
     text-align: center;
+    font-family: var(--font0);
     
 }
 
-article.serviços h1 {
+.serviços h1 {
     font-size: 1.7em;
     text-align: center;
     padding-top: 30px;
     color: var(--cor0);
 }
 
-article.serviços p {
+.serviços p {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -111,7 +111,7 @@ article.serviços p {
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.288); 
     padding: 10px;
     text-decoration: none;
-    color: var(--cor1);
+    color: var(--cor2);
     font-weight: bold;
 }
 
@@ -122,17 +122,15 @@ article.serviços p {
     transition-duration: .5s;
 }
 
-article.produto {
-
+.produto {
     padding: 50px;    
-    margin: auto;
+    font-family: var(--font0);
     font-size: 1.1em;
-    font-weight: bold;
-    
+    font-weight: bold;   
     
 }
 
-article.produto ul li {
+.produto ul li {
     list-style: none;
     line-height: 2em;
     text-align: center;
@@ -144,7 +142,7 @@ article.produto ul li {
     margin-bottom: 20px;
 }
 
-article.produto ul li:hover {
+.produto ul li:hover {
     cursor: pointer;
     color: var(--cor5);
     background-color: var(--cor0);
@@ -165,47 +163,22 @@ article.produto ul li:hover {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-footer {
+.rodape {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: var(--cor4);
     text-align: center;
-    padding: 10px;
-    
-}
-
-footer > a {
-    display: inline-block;
-    color: var(--cor4);
-    text-decoration: none;
-    padding: 10px;
-    
-}
-
-footer > p {
-    padding: 10px;
-    color: var(--cor4)
-}
-
-footer > p > a {
-    color: var(--cor4);
-    text-decoration: none;
-    padding: 10px;
+    font-family: var(--font0);
     font-weight: bold;
 }
 
-footer > p > a:hover {    
-    text-decoration: underline;
-
+.rodape > p > a {
+    color: var(--cor4);
 }
 
-footer > p > a:active {
-    color: var(--cor0);
-}
-
-footer > a:hover {    
-    text-decoration: underline;
-}
-
-footer > a:active {
-    color: var(--cor0)
+.rodape > p > a:hover {
+    color: var(--cor5);
 }
 
 

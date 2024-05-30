@@ -1,6 +1,10 @@
-@charset "UTF=8";
+@charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+
+    .corpo {
+        background-image: linear-gradient(to bottom, #063A40, #37B2BF);
+    }
 
     #burguer { 
         display: none;
@@ -9,11 +13,17 @@
     nav {
         display: block;
     }
+    
+    .serviços {
+        background-image: linear-gradient(to right, #96D2D9, #E3FCFF, #BFBA9F);
+    }
 
     #chamada {
         background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
-        background-attachment: fixed;
     }
 
-    
+    .conteudo > .list > h4 {
+        border-radius: 10px;
+        background-image: linear-gradient(to right, var(--cor3), transparent);
+    }     
 }

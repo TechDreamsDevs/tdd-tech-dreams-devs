@@ -10,7 +10,7 @@
     <script src="../javascript/script.js"></script>
     <title>Tech Dreams Devs - Início</title>    
 </head>
-<body onresize="mudouTamanho()">
+<body onresize="mudouTamanho()" class="corpo">
     <header> 
         <div class="logo"><a href="index.html"><img src="../logotipos/TECH DREAMS DEVStransparente500x121.png" alt="Logotipo Robô" width="200px"></a></div>
         <span class="material-symbols-sharp" id="burguer" onclick="clickMenu()">menu</span> 
@@ -23,8 +23,7 @@
             <!--<a href="#" rel="next">Depoimentos</a>-->
             <!--<a href="#">Perguntas Frequentes (FAQ):</a>-->
             <!--<a href="#" rel="next">Parceiros</a>-->
-            <a href="redes-sociais.html" rel="next">Redes Sociais</a>
-                                    
+            <a href="redes-sociais.html" rel="next">Redes Sociais</a>                                    
         </nav>      
     </header>
 
@@ -39,7 +38,9 @@
             <ul>
                 <li onclick="clickEcommerce()">Ecommerce +</li>
                 <div id="iecom">
-                    <iframe src="../frames/ecommerce.html" frameborder="1"></iframe>
+                    <iframe src="../frames/ecommerce.html" frameborder="1">
+                        Seu navegador não é compatível com isso.
+                    </iframe>
                 </div>
                 <li>Portfólio +</li>
                 <li>One-page +</li>
@@ -53,15 +54,12 @@
     </main>
     <footer>
         <hr>
-        <a href="politica.html" rel="next">
-            <p>Política de Privacidade e Termos de Uso</p>
-        </a><br>
-        
+            <div class="rodape">
+                <p><a href="politica.html" rel="next">Política de Privacidade e Termos de Uso</a></p>
+        <br>  
             <p>Desenvolvido por: <a href="higorlins.html" rel="next">&copy;HGR Art's</a></p>
-        </a>
-        <hr>
+            </div>
+        <hr>        
     </footer>
-    
-
 </body>
 </html>
