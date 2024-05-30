@@ -37,7 +37,6 @@
 
 .conteudo {
     margin: auto;
-    max-width: 300px;
     text-align: center;    
 }
 
@@ -51,16 +50,6 @@
     font-size: 2em;
 }
 
-.list > li {
-    padding: 20px;
-    color: var(--cor0);
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside;
-    font-family: var(--font1);
-    font-weight: bolder;
-    font-size: 18px;
-}
-
 .list {
     display: inline-block;
     list-style: none;
@@ -69,12 +58,12 @@
     max-width: 375px;
 }
 
-.list li {
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside;
+.list > li {
+    padding: 20px;
+    color: var(--cor0);  
+    font-family: var(--font0);
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;    
+    font-size: 18px;
 }
 
 #chamada {
