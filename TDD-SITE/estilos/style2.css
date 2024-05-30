@@ -45,17 +45,8 @@ body {
     margin: auto;
     max-width: 300px;
     text-align: center;
-}
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-.conteudo > ul > h4 {
-=======
-.conteudo > h3 {
->>>>>>> Stashed changes
-=======
-.conteudo > #list > h4 {
->>>>>>> parent of 03df7b3 (Atualização 1.0)
+
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -66,9 +57,6 @@ body {
     font-size: 2em;
 }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
 .conteudo > .list > h4 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -78,11 +66,6 @@ body {
     color: var(--cor0);
     font-weight: bolder;
     font-size: 2em;
-}
-
->>>>>>> Stashed changes
-.list {
-    text-align: center;
 }
 
 .list > li {
@@ -95,21 +78,6 @@ body {
     font-size: 18px;
 }
 
-=======
->>>>>>> parent of 03df7b3 (Atualização 1.0)
-/*.conteudo > #conteudo-quem-somos {
-    display: inline-block;
-    list-style: none;
-    text-align: center;
-    font-weight: bolder;
-    max-width: 375px;
-    
-} */
-
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-.chamada {
-=======
 .list {
     display: inline-block;
     list-style: none;
@@ -141,13 +109,10 @@ body {
     margin: auto;    
     text-align: center;
     font-size: 2em;
->>>>>>> Stashed changes
+
+    /*
     margin-top: 10px;
     padding: 50px;
-=======
-#chamada {
-    font-weight: bolder;
->>>>>>> parent of 03df7b3 (Atualização 1.0)
     background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
     color: var(--cor0);
     padding: 50px;
@@ -158,7 +123,7 @@ body {
     margin-top: 10px;
     
 
-}
+}  */
 
 #contato p {
     text-align: center;
@@ -177,15 +142,6 @@ body {
 #contato p a:active {
     color: var(--cor0);
 }
-
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-
-
-
->>>>>>> Stashed changes
-=======
 
 #list {
     display: inline-block;
@@ -209,7 +165,6 @@ body {
     
 }
 
->>>>>>> parent of 03df7b3 (Atualização 1.0)
 p {
     text-align: center;
     font-size: 1em;
