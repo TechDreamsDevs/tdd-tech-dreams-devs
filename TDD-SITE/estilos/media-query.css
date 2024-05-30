@@ -4,6 +4,7 @@
 
     .corpo {
         background-image: linear-gradient(to bottom, #063A40, #37B2BF);
+        background-attachment: fixed;
     }
 
     #burguer { 
