@@ -19,6 +19,10 @@
         background-image: linear-gradient(to right, #96D2D9, #E3FCFF, #BFBA9F);
     }
 
+    .produto ul li:hover {
+        background-color: var(--cor0);
+    }
+
     #chamada {
         background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
     }

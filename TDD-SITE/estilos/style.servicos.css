@@ -25,14 +25,14 @@
     border-radius: 20px;
     background-color: var(--cor0);
     box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.800);
-    color: white;
+    color: var(--cor4);
     text-align: center;
     font-family: var(--font0);
 }
 
 .cabeçalho > h1, h2 {
+    text-shadow: 0px 0px 3px var(--cor4);
     font-weight: lighter;
-    text-shadow: 0px 0px 3px white;
 }
 
 .conteudo {
@@ -42,26 +42,22 @@
 
 .conteudo > .list > h4 {
     display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
     padding: 10px;
     color: var(--cor0);
     font-family: var(--font0);
-    font-weight: bolder;
     font-size: 2em;
 }
 
 .list {
-    display: inline-block;
-    list-style: none;
-    text-align: center;
+    margin-top: 10px;
 }
 
 .list > li {
+    margin: auto;
     padding: 20px;
     color: var(--cor0);  
     font-family: var(--font0);
-    font-size: 18px;
+    font-size: 19px;
 }
 
 #chamada {
@@ -71,13 +67,13 @@
     color: var(--cor0);
     text-align: center;
     font-family: var(--font1);
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 a {
     color: var(--cor1);
-    font-weight: bold;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -90,9 +86,9 @@ a:active {
 }
 
 .rodape {
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px;
     color: var(--cor0);
     text-align: center;
     font-family: var(--font0);
