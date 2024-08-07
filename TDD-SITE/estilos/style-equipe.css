@@ -34,3 +34,53 @@
     text-shadow: 0px 0px 3px var(--cor4);
     font-weight: lighter;
 }
+
+.conteudo {
+    margin: auto;
+    text-align: center;  
+}
+
+.conteudo > .list > h3 {
+    display: inline-block;
+    padding: 10px;
+    color: var(--cor0);
+    font-family: var(--font0);
+    font-size: 2em;
+}
+
+.list {
+    margin-top: 10px;
+}
+
+.list > li {
+    margin: auto;
+    padding: 25px;
+    color: var(--cor0);  
+    font-family: var(--font0);
+    font-size: 19px;
+}
+
+a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--cor0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--cor1);
+}
+
+.rodape {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--cor0);
+    text-align: center;
+    font-family: var(--font0);
+    font-weight: bold;
+}
