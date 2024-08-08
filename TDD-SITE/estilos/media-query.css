@@ -32,6 +32,10 @@
         background-image: linear-gradient(to right, var(--cor3), transparent);
     }
 
+    .conteudo {
+        max-width: 100vh;
+    }
+
     .conteudo > .list > .titulo {
         border-radius: 10px;
         background-image: linear-gradient(to right, var(--cor3), transparent);
