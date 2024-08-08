@@ -32,10 +32,6 @@
         background-image: linear-gradient(to right, var(--cor3), transparent);
     }
 
-    .conteudo {
-        max-width: 100vh;
-    }
-
     .conteudo > .list > .titulo {
         border-radius: 10px;
         background-image: linear-gradient(to right, var(--cor3), transparent);
@@ -49,5 +45,10 @@
     .checklist > li{
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
+    }
+
+    .conteudo1 {
+        margin: auto;
+        max-width: 100vh;
     }
 }
