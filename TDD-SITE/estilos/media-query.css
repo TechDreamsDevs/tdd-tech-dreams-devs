@@ -27,7 +27,7 @@
         background-image: linear-gradient(to right, #96d2d994, #E3FCFF, #bfba9f52);
     }
 
-    .conteudo > h3 {
+    .conteudo > h3, h4 {
         border-radius: 10px;
         background-image: linear-gradient(to right, var(--cor3), transparent);
     }
