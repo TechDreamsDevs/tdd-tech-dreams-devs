@@ -15,5 +15,5 @@ header {
 }
 
 header > a {
-    flex-shrink: 1;
+    flex: 0 1 200px;
 }
