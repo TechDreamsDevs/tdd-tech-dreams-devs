@@ -8,12 +8,8 @@
 
 header {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-around;
     align-items: center;
 
-}
-
-header > a {
-    flex: 0 1 200px;
 }
