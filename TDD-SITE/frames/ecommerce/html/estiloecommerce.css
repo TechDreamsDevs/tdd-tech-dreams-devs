@@ -7,16 +7,14 @@
 }
 
 header {
+    background-color: blue;
+    padding: 10px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: blue;
-    border-radius: 300px;
-
 }
 
-header > #logo > a > img {
-    max-width: 100px;
-
+header > #logo > a > img{
+    width: 100px;
 }
