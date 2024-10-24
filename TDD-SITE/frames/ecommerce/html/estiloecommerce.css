@@ -18,3 +18,17 @@ header {
 header > #logo > a > img{
     width: 100px;
 }
+
+header > ul {
+    padding: 5vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+}
+
+header > ul > li > a {
+    color: white;
+    text-decoration: none;
+} 
