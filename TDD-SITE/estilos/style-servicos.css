@@ -55,7 +55,7 @@
 .checklist > li {
     margin: auto;
     padding: 25px;
-    color: var(--cor0);  
+    color: var(--cor0);
     font-family: var(--font0);
     font-size: 19px;
 }
